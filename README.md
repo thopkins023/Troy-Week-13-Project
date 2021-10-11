@@ -1,4 +1,6 @@
 # Troy-Week-13-Project
+![Troy_CCSN](https://user-images.githubusercontent.com/85655831/136860846-b53156cf-ca0f-4dcc-bebd-de7e4a6a68de.PNG)
+
 ## Automated ELK Stack Deployment
 
 The files in this repository were used to configure the network depicted below.
