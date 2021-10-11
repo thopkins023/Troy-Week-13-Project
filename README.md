@@ -64,7 +64,7 @@ A summary of the access policies in place can be found in the table below.
 |----------|---------------------|----------------------|
 | JumpBoxP |    No               |10.0.0.10/52.237.178.167|
 | ELKSERVER|    No               |13.93.142.207/10.1.0.4|                                                           | Web1     |    No               |     10.0.0.13        |
-| Web2     |    NO               |       10.0.0.14         |
+| Web2     |    No               |       10.0.0.14         |
 
 ### Elk Configuration
 
@@ -80,8 +80,6 @@ The playbook implements the following tasks:
 •  Launch docker container: elk
 
 The following screenshot displays the result of running `docker ps` after successfully configuring the ELK instance.
-
- 
 
 Where image is found: C:\Users\thopk\OneDrive\Documents
 ### Target Machines & Beats
@@ -111,11 +109,8 @@ Command: ansible-playbook /etc/ansible/pentest.yml
          ansible-playbook /etc/ansible/ filebeat-playbook.yml
 
 
-
-
 • Which file is the playbook? /etc/ansible/file/elk.yml 
 
 • Which file do you update to make Ansible run the playbook on a specific machine? How do I specify which machine to install the ELK server on versus which to install Filebeat on? edit the /etc/ansible/host file to add webserver/elkserver ip addresses 
 
 •  Which URL do you navigate to in order to check that the ELK server is running? www. 13.93.142.207:5601 (Kibana)
-
