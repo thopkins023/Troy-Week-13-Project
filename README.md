@@ -60,9 +60,9 @@ JumpBoxProvisioner 10.0.0.10
 A summary of the access policies in place can be found in the table below.
 | Name     | Publicly Accessible | Allowed IP Addresses |
 |----------|---------------------|----------------------|
-| Jump Box |    No               |10.0.0.1/10.0.0.2/67.4.207.227|
-| ELKSERVER|    No               |                      |                                                           | Web1     |    No               |                      |
-| Web2     |    NO               |                      |
+| JumpBoxP |    No               |10.0.0.10/52.237.178.167|
+| ELKSERVER|    No               |13.93.142.207/10.1.0.4|                                                           | Web1     |    No               |     10.0.0.13        |
+| Web2     |    NO               |       10.0.0.14         |
 
 ### Elk Configuration
 
@@ -117,3 +117,4 @@ Command: ansible-playbook /etc/ansible/pentest.yml
 • Which file do you update to make Ansible run the playbook on a specific machine? How do I specify which machine to install the ELK server on versus which to install Filebeat on? edit the /etc/ansible/host file to add webserver/elkserver ip addresses 
 
 •  Which URL do you navigate to in order to check that the ELK server is running? www. 13.93.142.207:5601 (Kibana)
+
